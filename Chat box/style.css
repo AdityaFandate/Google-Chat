@@ -1,0 +1,127 @@
+@import url("C:\Users\adity\OneDrive\Desktop\Aditya\Chat box");
+body
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background: linear-gradient( #009688 0%, #009688 130px,#d9dbd5 130px, #d9dbd5 100%);
+}
+.Container
+{
+ position: relative;
+ width: 1396px;
+ max-width: 100%;
+ height: calc(100vh - 40px);
+ background:#fff ;
+ display: flex;
+
+}
+
+.Container .leftside
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    background: #fff;
+    border-right: 1px solid black;
+}
+
+.Container .rightside
+{
+    position: relative;
+    display: flex;
+  
+    flex: 70%;
+    background: #e3fde5be;
+    border-right: black;
+}
+
+.Container .rightside::before
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://i.pinimg.com/564x/d2/a7/76/d2a77609f5d97b9081b117c8f699bd37.jpg);
+    opacity: 0.06;
+}
+
+.Header
+{
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background: #d9dbd5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+
+}
+
+.User
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.cover
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    
+
+}
+
+.icon
+{
+   display: flex; 
+
+}
+
+.icon li
+{
+    display: flex;
+    justify-content:left ;
+    list-style: none;
+    font-size: 0.9cm;
+    margin-left: 10px;
+    color: rgb(45, 59, 59);
+
+}
+
+.chat
+{
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background: #d9dbd5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+

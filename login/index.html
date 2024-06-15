@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        
+        body {
+  background-image: url('https://sanketnow.com/wp-content/uploads/2020/05/Raigad-Photography-13.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+    body{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Outerdiv{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 60px;
+        align-items: center;
+        border-radius: 10px;
+        
+    }
+
+    #innerdiv{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+    input{
+            border:none;
+            border-bottom:1px solid #a7bcff;
+            padding: 15px;
+            width: 250px;
+            flex-direction: column;
+        }
+
+    button{
+            background-color: #a7bcff;
+            color: white;
+            padding: 10px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="Outerdiv">
+        <h1 style="margin: 0px; font-style: oblique;">Google Login</h1>
+        <p><h3>Login</h3></p>
+        <div class="Innerdiv" style="flex-direction: row;">
+            <input type="email" placeholder="Enter Email...">
+            <input type="password" placeholder="Enter Password...">
+            <button>Sign in</button>
+        </div>
+        <p>You don't have an account? <a href="register.html">Register</a></p>
+
+    </div>
+</body>
+</html>
